@@ -71,9 +71,9 @@ cxx-Bridging-Header.h will be parsed by swiftpp and every class that are annotat
 
 example:
 
-class __attribute__((annotate("swift"))) MyCXXClass { ... };
+    class __attribute__((annotate("swift"))) MyCXXClass { ... };
 
- * You can use a #define swift __attribute__((annotate("swift"))) to
+ * You can use a `#define swift __attribute__((annotate("swift")))` to
  simplify the syntax
 
 Then, you will be able to instanciate or subclass MyCXXClass in swift.
